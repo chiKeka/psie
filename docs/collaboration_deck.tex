@@ -1,0 +1,127 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+
+% ── Colours ──────────────────────────────────────────────────
+\definecolor{oxford}{HTML}{002147}
+\definecolor{accent}{HTML}{E67E22}
+\definecolor{muted}{HTML}{7F8C8D}
+
+% ── Layout ───────────────────────────────────────────────────
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\small\textcolor{muted}{Bruno Chikeka $\mid$ Sa\"{i}d Business School, University of Oxford $\mid$ \today}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\setlength{\headheight}{14pt}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=oxford,
+  urlcolor=oxford,
+}
+
+\begin{document}
+
+% ── Header ───────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\bfseries\color{oxford} Seeking Co-Creators}\\[0.4em]
+  {\Large Programme Structural Intelligence Engine (PSIE)}\\[0.3em]
+  {\normalsize\textcolor{muted}{A research tool that makes the invisible topology of major programmes visible, analysable, and actionable.}}
+\end{center}
+
+\vspace{0.8em}
+\noindent\textcolor{oxford}{\rule{\textwidth}{0.6pt}}
+\vspace{0.5em}
+
+% ── The Pitch ────────────────────────────────────────────────
+\noindent\textbf{\textcolor{accent}{The Problem.}}\quad
+91.5\,\% of megaprojects overrun on budget or schedule (Flyvbjerg, 16,000+ projects). The root cause: leaders cannot see the \emph{topology of interdependencies}---the hidden web through which a delay in one workstream cascades into failures elsewhere. Gantt charts show sequence; risk registers list items. Neither reveals \emph{structure}.
+
+\noindent\textbf{\textcolor{accent}{The Tool.}}\quad
+PSIE encodes a major programme as a \textbf{typed knowledge graph}, then applies network analysis, cascade simulation, and (in later phases) Bayesian prediction to reveal structural vulnerabilities invisible to conventional controls. Think of it as a \emph{structural MRI} for programmes.
+
+\noindent\textbf{\textcolor{accent}{What Exists Today.}}\quad
+A working MVP: 23-node Oman Vision 2040 case study, three S\textsuperscript{3} analytical lenses, cascade simulator, interactive dashboard. Open-source on GitHub.
+
+% ── Architecture ─────────────────────────────────────────────
+\vspace{0.5em}
+\begin{table}[h!]
+\centering
+\small
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}c l l c X@{}}
+\toprule
+\textbf{Layer} & \textbf{Component} & \textbf{Tradition} & \textbf{Status} & \textbf{Expertise Needed} \\
+\midrule
+6 & Interpretation & S\textsuperscript{3} Framework & Design & Programme management \\
+5 & Calibration & Reference Class Forecasting & Planned & Empirical data access \\
+4 & Prediction & Bayesian Networks & Planned & Probabilistic graphical models \\
+3 & Temporal Model & System Dynamics & Stub & ODE modelling, feedback systems \\
+\rowcolor{green!8}
+2 & Propagation & Network Science & \textbf{Built} & Graph theory, percolation \\
+\rowcolor{green!8}
+1 & Graph Schema & DSMs / Syst.\ Eng.\ & \textbf{Built} & Knowledge-graph design \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+% ── What I'm Looking For ─────────────────────────────────────
+\vspace{0.3em}
+\noindent\textbf{\textcolor{oxford}{\large What I'm Looking For}}
+\vspace{0.3em}
+
+\begin{table}[h!]
+\centering
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\textwidth}{@{}l X l@{}}
+\toprule
+\textbf{Domain} & \textbf{Contribution} & \textbf{Phase} \\
+\midrule
+Network Science & Validate cascade model; percolation thresholds; multiplex graphs & Now--2027 \\
+System Dynamics & Build ODE-based temporal layer; feedback loop modelling & 2027 \\
+Bayesian Inference & Design probabilistic prediction engine; CPT estimation & 2027--2028 \\
+Programme Data & Access to historical datasets (Crossrail, HS2, etc.)\ for calibration & 2027--2029 \\
+NLP / AI & Automated graph extraction from Primavera P6, risk registers & 2028 \\
+Software Engineering & Scalable graph computation; interactive UI & Ongoing \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+% ── What You Get ─────────────────────────────────────────────
+\vspace{0.3em}
+\noindent\textbf{\textcolor{oxford}{\large What You Get}}
+\vspace{0.3em}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt]
+  \item \textbf{Co-authorship} on publications from your research stream.
+  \item \textbf{A novel application domain} for your methods---major programmes are a rich, under-explored graph-theoretic testbed.
+  \item \textbf{Access to a working prototype} you can extend with your own models.
+  \item \textbf{Real-world validation data} from national-scale programmes.
+\end{itemize}
+
+% ── Contact ──────────────────────────────────────────────────
+\vspace{0.8em}
+\noindent\textcolor{oxford}{\rule{\textwidth}{0.6pt}}
+\vspace{0.3em}
+
+\begin{center}
+  {\large\bfseries\color{oxford} Bruno Chikeka}\\[0.2em]
+  MSc Major Programme Management, Sa\"{i}d Business School, University of Oxford\\
+  Supervisor: Prof.\ Daniel Armanios\\[0.3em]
+  \texttt{GitHub:} \url{https://github.com/chiKeka/psie}
+\end{center}
+
+\end{document}

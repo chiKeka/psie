@@ -1,0 +1,15 @@
+# PSIE — Programme Structural Intelligence Engine
+# Core dependencies
+networkx>=3.0
+numpy>=1.24
+matplotlib>=3.7
+
+# Optional: interactive visualisation
+pyvis>=0.3.2
+
+# Optional: Streamlit UI
+streamlit>=1.30
+
+# Optional: Jupyter notebook support
+jupyter>=1.0
+ipywidgets>=8.0

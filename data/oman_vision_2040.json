@@ -1,0 +1,307 @@
+{
+  "name": "Oman Vision 2040",
+  "description": "National vision programme for the Sultanate of Oman. Encoded from the baseline system map in Armanios et al. (2025), California Management Review 67(3).",
+  "nodes": {
+    "trade": {
+      "label": "Trade",
+      "node_type": "workstream",
+      "family": "Economy",
+      "description": "International and domestic trade infrastructure and policy",
+      "criticality": 0.6,
+      "vulnerability": 0.8,
+      "absorptive_capacity": 0.3,
+      "source": "Oman 2040 Vision Document"
+    },
+    "non_oil": {
+      "label": "Non-Oil Industries",
+      "node_type": "workstream",
+      "family": "Economy",
+      "description": "Economic diversification away from oil dependence",
+      "criticality": 0.9,
+      "vulnerability": 0.6,
+      "absorptive_capacity": 0.4,
+      "source": "Oman 2040 Vision Document"
+    },
+    "oil_gas": {
+      "label": "Oil & Gas",
+      "node_type": "workstream",
+      "family": "Economy",
+      "description": "Existing oil and gas sector — revenue backbone",
+      "criticality": 0.9,
+      "vulnerability": 0.5,
+      "absorptive_capacity": 0.6,
+      "source": "Oman 2040 Vision Document"
+    },
+    "tourism": {
+      "label": "Tourism",
+      "node_type": "workstream",
+      "family": "Economy",
+      "description": "Tourism development as diversification strategy",
+      "criticality": 0.6,
+      "vulnerability": 0.5,
+      "absorptive_capacity": 0.4,
+      "source": "Oman 2040 Vision Document"
+    },
+    "private_sector": {
+      "label": "Private Sector Development",
+      "node_type": "workstream",
+      "family": "Economy",
+      "description": "SME growth, entrepreneurship, business environment",
+      "criticality": 0.7,
+      "vulnerability": 0.5,
+      "absorptive_capacity": 0.4,
+      "source": "Oman 2040 Vision Document"
+    },
+    "fiscal_policy": {
+      "label": "Fiscal & Monetary Policy",
+      "node_type": "policy",
+      "family": "Economy",
+      "description": "Government fiscal management, monetary policy",
+      "criticality": 0.8,
+      "vulnerability": 0.4,
+      "absorptive_capacity": 0.5,
+      "source": "Oman 2040 Vision Document"
+    },
+    "education": {
+      "label": "Education & Scientific Research",
+      "node_type": "workstream",
+      "family": "Society",
+      "description": "Education system reform, research capacity, human capital",
+      "criticality": 0.9,
+      "vulnerability": 0.4,
+      "absorptive_capacity": 0.5,
+      "source": "Oman 2040 Vision Document"
+    },
+    "health": {
+      "label": "Health",
+      "node_type": "workstream",
+      "family": "Society",
+      "description": "Healthcare system and public health",
+      "criticality": 0.7,
+      "vulnerability": 0.7,
+      "absorptive_capacity": 0.4,
+      "source": "Oman 2040 Vision Document"
+    },
+    "sustainable_dev": {
+      "label": "Sustainable & Inclusive Development",
+      "node_type": "workstream",
+      "family": "Society",
+      "description": "Social inclusion, equity, sustainable development goals",
+      "criticality": 0.8,
+      "vulnerability": 0.5,
+      "absorptive_capacity": 0.4,
+      "source": "Oman 2040 Vision Document"
+    },
+    "national_identity": {
+      "label": "National Identity & Heritage",
+      "node_type": "workstream",
+      "family": "Society",
+      "description": "Cultural preservation, national cohesion",
+      "criticality": 0.5,
+      "vulnerability": 0.3,
+      "absorptive_capacity": 0.6,
+      "source": "Oman 2040 Vision Document"
+    },
+    "wellbeing": {
+      "label": "Citizen Wellbeing",
+      "node_type": "metric",
+      "family": "Society",
+      "description": "Quality of life, social welfare outcomes",
+      "criticality": 0.7,
+      "vulnerability": 0.5,
+      "absorptive_capacity": 0.4,
+      "source": "Oman 2040 Vision Document"
+    },
+    "natural_resources": {
+      "label": "Natural Resources",
+      "node_type": "physical",
+      "family": "Environment",
+      "description": "Water, minerals, land, marine resources",
+      "criticality": 0.8,
+      "vulnerability": 0.6,
+      "absorptive_capacity": 0.3,
+      "source": "Oman 2040 Vision Document"
+    },
+    "environment_sustainability": {
+      "label": "Environmental Sustainability",
+      "node_type": "policy",
+      "family": "Environment",
+      "description": "Climate action, environmental protection",
+      "criticality": 0.7,
+      "vulnerability": 0.5,
+      "absorptive_capacity": 0.4,
+      "source": "Oman 2040 Vision Document"
+    },
+    "infrastructure": {
+      "label": "Infrastructure",
+      "node_type": "physical",
+      "family": "Support Mechanisms",
+      "description": "Physical infrastructure: transport, utilities, communications",
+      "criticality": 0.9,
+      "vulnerability": 0.5,
+      "absorptive_capacity": 0.5,
+      "source": "Oman 2040 Vision Document"
+    },
+    "technology": {
+      "label": "Technology & Innovation",
+      "node_type": "capability",
+      "family": "Support Mechanisms",
+      "description": "Digital transformation, R&D, innovation ecosystem",
+      "criticality": 0.8,
+      "vulnerability": 0.4,
+      "absorptive_capacity": 0.5,
+      "source": "Oman 2040 Vision Document"
+    },
+    "labour_market": {
+      "label": "Labour Market",
+      "node_type": "capability",
+      "family": "Support Mechanisms",
+      "description": "Workforce development, Omanisation, employment",
+      "criticality": 0.8,
+      "vulnerability": 0.6,
+      "absorptive_capacity": 0.4,
+      "source": "Oman 2040 Vision Document"
+    },
+    "governance": {
+      "label": "Governance & Institutional Performance",
+      "node_type": "mechanism",
+      "family": "Governance",
+      "description": "Government effectiveness, institutional reform",
+      "criticality": 0.9,
+      "vulnerability": 0.4,
+      "absorptive_capacity": 0.6,
+      "source": "Oman 2040 Vision Document"
+    },
+    "legislative": {
+      "label": "Legislative & Regulatory Framework",
+      "node_type": "policy",
+      "family": "Governance",
+      "description": "Legal framework, regulatory environment",
+      "criticality": 0.7,
+      "vulnerability": 0.3,
+      "absorptive_capacity": 0.6,
+      "source": "Oman 2040 Vision Document"
+    },
+    "judiciary": {
+      "label": "Judiciary",
+      "node_type": "mechanism",
+      "family": "Governance",
+      "description": "Rule of law, judicial independence",
+      "criticality": 0.6,
+      "vulnerability": 0.3,
+      "absorptive_capacity": 0.7,
+      "source": "Oman 2040 Vision Document"
+    },
+    "performance": {
+      "label": "Performance & Accountability",
+      "node_type": "metric",
+      "family": "Governance",
+      "description": "Government KPIs, accountability frameworks",
+      "criticality": 0.7,
+      "vulnerability": 0.4,
+      "absorptive_capacity": 0.5,
+      "source": "Oman 2040 Vision Document"
+    },
+    "imec_corridor": {
+      "label": "IMEC Economic Corridor",
+      "node_type": "exogenous_event",
+      "family": "External",
+      "description": "India-Middle East-Europe Economic Corridor. Could disrupt Oman's trade position.",
+      "criticality": 0.0,
+      "vulnerability": 0.0,
+      "absorptive_capacity": 0.0,
+      "source": "Armanios et al. (2025)"
+    },
+    "pandemic": {
+      "label": "Pandemic / Health Crisis",
+      "node_type": "exogenous_event",
+      "family": "External",
+      "description": "COVID-19 type health crisis affecting programme delivery",
+      "criticality": 0.0,
+      "vulnerability": 0.0,
+      "absorptive_capacity": 0.0,
+      "source": "Armanios et al. (2025)"
+    },
+    "harasiis_scenario": {
+      "label": "Harasiis Tribal Land Encroachment",
+      "node_type": "exogenous_event",
+      "family": "External",
+      "description": "Development encroaches on Harasiis tribal lands, creating unanticipated stakeholder conflict",
+      "criticality": 0.0,
+      "vulnerability": 0.0,
+      "absorptive_capacity": 0.0,
+      "source": "Armanios et al. (2025)"
+    }
+  },
+  "edges": {
+    "e01": {"source": "oil_gas", "target": "non_oil", "edge_type": "resource_flow", "weight": 0.9, "propagation_rate": 0.8, "rule_type": "priority"},
+    "e02": {"source": "oil_gas", "target": "fiscal_policy", "edge_type": "resource_flow", "weight": 0.9, "propagation_rate": 0.9, "rule_type": "boundary"},
+    "e03": {"source": "non_oil", "target": "private_sector", "edge_type": "causal_link", "weight": 0.7, "propagation_rate": 0.6},
+    "e04": {"source": "trade", "target": "non_oil", "edge_type": "causal_link", "weight": 0.6, "propagation_rate": 0.5},
+    "e05": {"source": "tourism", "target": "non_oil", "edge_type": "causal_link", "weight": 0.5, "propagation_rate": 0.4},
+    "e06": {"source": "fiscal_policy", "target": "infrastructure", "edge_type": "funds_operates", "weight": 0.8, "propagation_rate": 0.7, "rule_type": "boundary"},
+    "e07": {"source": "education", "target": "labour_market", "edge_type": "causal_link", "weight": 0.8, "propagation_rate": 0.7, "rule_type": "timing"},
+    "e08": {"source": "education", "target": "technology", "edge_type": "scaffolds", "weight": 0.7, "propagation_rate": 0.5},
+    "e09": {"source": "health", "target": "wellbeing", "edge_type": "causal_link", "weight": 0.7, "propagation_rate": 0.6},
+    "e10": {"source": "sustainable_dev", "target": "wellbeing", "edge_type": "causal_link", "weight": 0.6, "propagation_rate": 0.5},
+    "e11": {"source": "sustainable_dev", "target": "natural_resources", "edge_type": "causal_link", "weight": 0.7, "propagation_rate": 0.6},
+    "e12": {"source": "national_identity", "target": "sustainable_dev", "edge_type": "causal_link", "weight": 0.4, "propagation_rate": 0.3},
+    "e13": {"source": "infrastructure", "target": "trade", "edge_type": "scaffolds", "weight": 0.8, "propagation_rate": 0.7},
+    "e14": {"source": "infrastructure", "target": "tourism", "edge_type": "scaffolds", "weight": 0.7, "propagation_rate": 0.6},
+    "e15": {"source": "infrastructure", "target": "non_oil", "edge_type": "scaffolds", "weight": 0.8, "propagation_rate": 0.6},
+    "e16": {"source": "technology", "target": "private_sector", "edge_type": "scaffolds", "weight": 0.7, "propagation_rate": 0.5},
+    "e17": {"source": "technology", "target": "non_oil", "edge_type": "scaffolds", "weight": 0.7, "propagation_rate": 0.5},
+    "e18": {"source": "labour_market", "target": "private_sector", "edge_type": "skill_match", "weight": 0.8, "propagation_rate": 0.7, "rule_type": "how_to"},
+    "e19": {"source": "labour_market", "target": "non_oil", "edge_type": "skill_match", "weight": 0.7, "propagation_rate": 0.6},
+    "e20": {"source": "governance", "target": "fiscal_policy", "edge_type": "authority_over", "weight": 0.8, "propagation_rate": 0.6},
+    "e21": {"source": "governance", "target": "performance", "edge_type": "oversight_of", "weight": 0.7, "propagation_rate": 0.5},
+    "e22": {"source": "legislative", "target": "governance", "edge_type": "causal_link", "weight": 0.6, "propagation_rate": 0.4},
+    "e23": {"source": "legislative", "target": "private_sector", "edge_type": "causal_link", "weight": 0.6, "propagation_rate": 0.5},
+    "e24": {"source": "judiciary", "target": "legislative", "edge_type": "scaffolds", "weight": 0.5, "propagation_rate": 0.3},
+    "e25": {"source": "judiciary", "target": "governance", "edge_type": "scaffolds", "weight": 0.5, "propagation_rate": 0.3},
+    "e26": {"source": "performance", "target": "governance", "edge_type": "information_flow", "weight": 0.6, "propagation_rate": 0.4},
+    "e27": {"source": "natural_resources", "target": "oil_gas", "edge_type": "resource_flow", "weight": 0.9, "propagation_rate": 0.8},
+    "e28": {"source": "natural_resources", "target": "environment_sustainability", "edge_type": "causal_link", "weight": 0.7, "propagation_rate": 0.6},
+    "e29": {"source": "fiscal_policy", "target": "education", "edge_type": "funds_operates", "weight": 0.7, "propagation_rate": 0.6, "rule_type": "priority"},
+    "e30": {"source": "fiscal_policy", "target": "health", "edge_type": "funds_operates", "weight": 0.6, "propagation_rate": 0.5, "rule_type": "priority"},
+    "e31": {"source": "imec_corridor", "target": "trade", "edge_type": "exposed_to", "weight": 0.8, "propagation_rate": 0.9, "rule_type": "boundary"},
+    "e32": {"source": "pandemic", "target": "health", "edge_type": "exposed_to", "weight": 0.9, "propagation_rate": 0.9},
+    "e33": {"source": "harasiis_scenario", "target": "sustainable_dev", "edge_type": "exposed_to", "weight": 0.7, "propagation_rate": 0.7},
+    "e34": {"source": "harasiis_scenario", "target": "natural_resources", "edge_type": "exposed_to", "weight": 0.6, "propagation_rate": 0.6},
+    "e35": {"source": "harasiis_scenario", "target": "infrastructure", "edge_type": "exposed_to", "weight": 0.5, "propagation_rate": 0.5}
+  },
+  "disruption_scenarios": [
+    {
+      "id": "imec_disruption",
+      "label": "IMEC Trade Route Disruption",
+      "disruption_type": "external_shock",
+      "injection_node": "imec_corridor",
+      "magnitude": 0.8,
+      "description": "The India-Middle East-Europe Economic Corridor diverts trade away from Oman's logistics infrastructure."
+    },
+    {
+      "id": "pandemic_disruption",
+      "label": "Pandemic Health Crisis",
+      "disruption_type": "external_shock",
+      "injection_node": "pandemic",
+      "magnitude": 0.9,
+      "description": "COVID-19 type pandemic disrupting health and economy."
+    },
+    {
+      "id": "harasiis_conflict",
+      "label": "Harasiis Tribal Land Conflict",
+      "disruption_type": "stakeholder_conflict",
+      "injection_node": "harasiis_scenario",
+      "magnitude": 0.6,
+      "description": "Development project encroaches on Harasiis tribal lands, creating unanticipated stakeholder conflict."
+    },
+    {
+      "id": "oil_price_crash",
+      "label": "Oil Price Crash",
+      "disruption_type": "cost_overrun",
+      "injection_node": "oil_gas",
+      "magnitude": 0.85,
+      "description": "Sustained oil price decline reducing government revenue."
+    }
+  ]
+}
